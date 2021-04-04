@@ -1,0 +1,12 @@
+{
+    "id": "{5A9CEA90-10F6-8986-0B74-6CBF49FE532E}",
+    "name": "CyclicClock",
+    "type": 3,
+    "vendor": "",
+    "aliases": ["Taktgeber"],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "ATN",
+    "url": ""
+}
