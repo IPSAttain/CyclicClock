@@ -6,7 +6,7 @@ Wechselt den Zustand einer bool Variablen in einer Einstellbaren Taktrate.
 
 ### 2. Vorraussetzungen
 
-- IP-Symcon ab Version 5.5
+- IP-Symcon ab Version 5.0
 
 ### 3. Software-Installation
 
