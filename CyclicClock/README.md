@@ -39,8 +39,8 @@ Name   | Typ
 
 ### 6. WebFront
 
-Die Taktfrequenz kann in Takte pro Minute oder Takte pro Stunde über die Integer Variablen eingestellt werden.
-Mit "Aktiv" kann der Prozess gesartet und gestopp werden.
+Die Taktfrequenz kann in "Takte pro Minute" oder "Takte pro Stunde" über die Integer Variablen eingestellt werden.
+Mit "Aktiv" kann der Prozess gesartet und gestoppt werden.
 
 ### 7. PHP-Befehlsreferenz
 

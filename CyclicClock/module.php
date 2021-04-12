@@ -47,6 +47,7 @@ declare(strict_types=1);
 
 		public function InvertBool()
 		{
+			// Invert the status variable
 			$Ident = 'ATN_Cyclic_Clock';
 			$this->SendDebug(__FUNCTION__,$_IPS['SENDER'] ,0);
 			if ($this->GetValue('ATN_Cyclic_Clock_Activ') && $_IPS['SENDER'] == "TimerEvent")
@@ -57,6 +58,7 @@ declare(strict_types=1);
 		}
 
 		public function RequestAction($Ident, $Value)
+		// Action Section
 		{
 			$this->SetValue($Ident,$Value);
 			$this->SendDebug(__FUNCTION__,$_IPS['SENDER'] . ' | Ident: ' . $Ident . ' | Value: ' . $Value,0);

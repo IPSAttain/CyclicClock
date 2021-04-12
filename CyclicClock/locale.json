@@ -3,8 +3,9 @@
         "de": {
             "Cycles per Minute": "Takte pro Minute",
             "Cycles per Hour": "Takte pro Stunde",
-            "Active":"Aktiv",
-            "Cyclic Clock":"Taktgeber"
+            "Active": "Aktiv",
+            "Cyclic Clock": "Taktgeber",
+            "Language": "Sprache"
         }
     }
 }
