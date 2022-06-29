@@ -50,7 +50,7 @@ declare(strict_types=1);
 			// Invert the status variable
 			$Ident = 'ATN_Cyclic_Clock';
 			$this->SendDebug(__FUNCTION__,$_IPS['SENDER'] ,0);
-			if ($this->GetValue('ATN_Cyclic_Clock_Activ') && $_IPS['SENDER'] == "TimerEvent")
+			if ($this->GetValue('ATN_Cyclic_Clock_Activ') && $_IPS['SENDER'] == "PHPModule")
 			{
 				$this->RegisterVariableBoolean($Ident, $this->Translate('Cyclic Clock'), '~Switch', 10);
 				$this->SetValue($Ident,!$this->GetValue($Ident));
