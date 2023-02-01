@@ -2,16 +2,17 @@
 
 ### 1. Funktionsumfang
 
-Wechselt den Zustand einer bool Variablen in einer Einstellbaren Taktrate.
+Wechselt den Zustand einer bool Variablen in einer einstellbaren Taktrate.
 
 ### 2. Vorraussetzungen
 
-- IP-Symcon ab Version 5.0
+- IP-Symcon ab Version 6.2
 
 ### 3. Software-Installation
 
 * Über den Module Store das 'CyclicClock / Takgeber'-Modul installieren.
-* Alternativ über das Module Control folgende URL hinzufügen
+* Alternativ über das Module Control folgende URL hinzufügen:
+https://github.com/IPSAttain/CyclicClock
 
 ### 4. Einrichten der Instanzen in IP-Symcon
 
@@ -26,16 +27,10 @@ Die Statusvariablen/Kategorien werden automatisch angelegt. Das Löschen einzeln
 
 Name   | Typ     | Beschreibung
 ------ | ------- | ------------
+Taktgeber | bool | Variable die im Takt umgeschaltet wird
 Aktiv  | bool    | Aktiviert den Prozess
 Takte/Min | integer | Taktrate
 Takte/Stunde | integer | Taktrate
-
-#### Profile
-
-Name   | Typ
------- | -------
-       |
-       |
 
 ### 6. WebFront
 
