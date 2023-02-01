@@ -3,7 +3,7 @@
     "name": "CyclicClock",
     "type": 3,
     "vendor": "Attain",
-    "aliases": ["Taktgeber" , "Takte pro Minute" , "Takte pro Stunde" , "PPM" , "PPH" , "Cyclic Clock"],
+    "aliases": ["Taktgeber"],
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
